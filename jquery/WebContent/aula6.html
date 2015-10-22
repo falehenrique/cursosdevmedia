@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ola mundo</title>
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script>
+
+
+	$(document).ready(function() {
+
+		$('a').click(function() {
+			
+			valor = $('#txtTest').css('background-color','red');
+			alert(valor);
+		});
+
+	});
+</script>
+</head>
+<body>
+		<a href="#" class="x">clique tetse 333 </a>
+		<input type="text" id="txtTest">
+</body>
+<script type='text/javascript' id="__bs_script__">
+	//<![CDATA[
+	document
+			.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.2.9.11.js'></script>"
+					.replace("HOST", location.hostname));
+	//]]>
+</script>
+
+</html>
